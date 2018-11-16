@@ -14,10 +14,10 @@ export const mutations = {
   },
   [UPDATE_USER]: (state, payload) => {
     const { id, user } = payload
-    state.users = [...state.users.slice(0,id), user, ...state.users.slice(id+1)]
+    state.users = state.filteredUsers = [...state.users.slice(0,id), user, ...state.users.slice(id+1)]
   },
   [DELETE_USER]: (state, payload) => {
-    state.users = state.users.filter((_, i) => i !== payload)
+    state.users = state.filteredUsers = state.users.filter((_, i) => i !== payload)
   },
   [SEARCH_FILTER]: (state, payload) => {
     // Bhojendra Note:
