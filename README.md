@@ -7,6 +7,7 @@ yarn serve
 
 ### TODO (Priority: Bottom to Top)
 
+- [ ] Validate form
 - [ ] Make pagination for users
 - [ ] Make mockApi for users listing
 - [ ] Add footer
