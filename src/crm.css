@@ -1,0 +1,6 @@
+html,body, #vue-crm {
+  height: 100%;
+}
+.main-wrapper {
+  min-height: calc(100% - 170px);
+}
