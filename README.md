@@ -20,3 +20,8 @@ yarn serve
 
 - [ ] List products
 - [ ] List orders
+- [ ] List users' phone numbers 
+
+### TODOs for step third feature
+
+- [ ] Allow users to import data
