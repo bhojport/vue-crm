@@ -5,7 +5,7 @@
 yarn serve
 ```
 
-### TODO (Priority: Bottom to Top)
+### TODOs for step first feature (Priority: Bottom to Top)
 
 - [ ] Restructure component files
 - [ ] Validate form
@@ -15,3 +15,8 @@ yarn serve
 - [ ] Add "Users wishlist's chart" in details page
 - [ ] Fix header title ie. Users/3 needs to be renamed "User Detail"
 - [x] Fix scrollbar -- was missing container class in root element
+
+### TODOs for step second feature
+
+- [ ] List products
+- [ ] List orders
