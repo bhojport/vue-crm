@@ -12,5 +12,5 @@ yarn serve
 - [ ] Make mockApi for users listing
 - [ ] Add footer
 - [ ] Add "Users wishlist's chart" in details page
-- [ ] Fix header title ie. Users/3 needs to be renamed "User Detail"
+- [x] Fix header title ie. Users/3 needs to be renamed "User Detail"
 - [x] Fix scrollbar -- was missing container class in root element

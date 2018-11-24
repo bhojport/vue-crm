@@ -6,7 +6,10 @@
         </div>
         <div class="col-9">
           <h1 class="h4 text-light text-capitalize">
-            {{$route.path === '/' ? 'dashboard' : $route.path.replace('/','') }}
+            {{ 
+              $route.name ? $route.name.replace('_', ' ') : 
+                $route.path === '/' ? 'dashboard' : $route.path.replace('/','')
+            }}
           </h1>
         </div>
     </nav>

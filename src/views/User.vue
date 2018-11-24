@@ -1,5 +1,6 @@
 <template>
   <div id="crm-user-details">
+    <h1 class="h6">User ID: {{ $route.params.id }}</h1>
     <div class="row no-gutter mb-3">
       <div class="col-sm-6 card-deck">
         <div class="card">

@@ -38,7 +38,7 @@
         <td>{{ getLastActivity() }}</td>
         <td>
           <!-- <router-link :to="{name: 'user', params: { id: index }}" tag="button" class="btn btn-primary mr-1">View</router-link> -->
-          <router-link :to="{name: 'user', params: { id: index }}" tag="button" class="btn btn-primary mr-1">View</router-link>
+          <router-link :to="{name: 'user_detail', params: { id: index }}" tag="button" class="btn btn-primary mr-1">View</router-link>
           <button class="btn btn-primary mr-1" @click="editUser(index, user)">Edit</button>
           <button class="btn btn-danger" @click="deleteUser(index)">Delete</button>
         </td>

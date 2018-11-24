@@ -16,7 +16,7 @@ const routes = [
     path: '/users', component: CRMUsers
   },
   {
-    path: '/users/:id', component: CRMUserDetails, name: 'user'
+    path: '/users/:id', component: CRMUserDetails, name: 'user_detail'
   },
   { // this is different than /users/:id, will be similar contents but for total users
     path: '/details', component: CRMDetails
